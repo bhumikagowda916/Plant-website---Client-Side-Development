@@ -1,0 +1,296 @@
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333333;
+}
+
+.nav-link {
+    color: #333333;
+}
+
+/* Carousel */
+.carousel-item {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Content */
+.content {
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.content h2 {
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.content p {
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.plant-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section h3 {
+    color: #333333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+.section ul {
+    padding-left: 20px;
+    color: #555555;
+    font-size: 16px;
+}
+
+.section ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.section ul li:before {
+    content: "\2022";
+    color: #4CAF50;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #45a049;
+}
+
+.about-content {
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.about-heading {
+    color: #333333;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.about-paragraph {
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.about-cta-btn:hover {
+    background-color: #45a049;
+}
+
+/* Additional Styling */
+.about-container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-row {
+    margin-bottom: 30px;
+}
+
+.about-row:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .about-image {
+        margin-bottom: 30px;
+    }
+}
+
+.collections-content {
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.collections-heading {
+    color: #333333;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.plant-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.plant-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.plant-image:hover {
+    transform: scale(1.1);
+}
+
+.plant-name {
+    font-weight: bold;
+    color: #333333;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.plant-description {
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-content {
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-heading {
+    color: #333333;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #999999;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+.container-contact {
+    max-width: 600px;
+}
+
+.testimonials-content {
+    padding: 50px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-card {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.testimonial-text {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    color: #555555;
+    font-size: 1.1rem;
+}
+
+.testimonial-company {
+    color: #777777;
+    font-style: italic;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
